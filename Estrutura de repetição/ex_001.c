@@ -1,9 +1,7 @@
 /******************************************************************************
-
 1) Escreva um programa em C que leia 20 valores inteiros e ao final exiba:
     a) A soma dos valores positivos
     b) A quantidade de valores negativos
-
 *******************************************************************************/
 
 #include <stdio.h>
@@ -18,7 +16,7 @@ int main()
 {
    printf("Informe 20 valores: ");
    
-   for (i = 0; i <= 4; i++) {
+   for (i = 1; i <= 20; i++) {
        scanf("%d", &num);
        
        if (num >= 0) { // Condição Positiva
@@ -30,3 +28,4 @@ int main()
    printf("A soma dos valores positivos: %d\n", somaPositivo);
    printf("A quantidade de valores negativos: %d", qtdNegativo);
 }
+
